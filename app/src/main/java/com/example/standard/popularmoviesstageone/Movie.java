@@ -9,6 +9,7 @@ import android.os.Parcelable;
 
 public class Movie implements Parcelable {
     private String mPoster, mTitle, mOverview, mDate, mRating;
+    //Todo: defining String for the Id
 
     public Movie(String mPoster) {
         this.mPoster = mPoster;

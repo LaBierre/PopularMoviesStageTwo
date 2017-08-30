@@ -4,8 +4,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.squareup.picasso.Picasso;
 
@@ -51,4 +53,12 @@ public class MovieDetailActivity extends AppCompatActivity {
         }
         return true;
     }
+
+    public void mamaClick (View view){
+        Toast.makeText(this, "Mama wurde angeklickt!", Toast.LENGTH_LONG).show();
+    }
+
+    //Todo: access Reviews and Trailer
+
+    //Todo: figure out if Reviews und Trailer need one Utils for each
 }

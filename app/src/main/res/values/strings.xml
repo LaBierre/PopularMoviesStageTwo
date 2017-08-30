@@ -51,6 +51,9 @@
     <string name="date_text">Date:</string>
     <string name="released_date_hint">Released Date</string>
 
+    <!--Strings inside movie_detail_activity_class-->
+    <string name="url_reviews">http://api.themoviedb.org/3/movie/211672/reviews?api_key=</string>
+
     <!--Strings inside movie_settings.xml-->
     <string name="most_popular_settings">Most Popular</string>
     <string name="highest_rated_settings">Highest Rated</string>

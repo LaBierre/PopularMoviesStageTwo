@@ -41,6 +41,8 @@ public class MovieActivity extends AppCompatActivity implements LoaderManager.Lo
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Log.d("Test", "MovieActivity, onCreate");
+
         /*
         * mDetailedLayout = false means that the home button in MovieDetailActivity is not clicked
         * mDetailedLayout = true means that the home button in MovieDetailActivity is clicked
@@ -121,6 +123,8 @@ public class MovieActivity extends AppCompatActivity implements LoaderManager.Lo
         getMenuInflater().inflate(R.menu.movie_settings, menu);
         return true;
     }
+
+    //Todo: insert menu point "Favorites"
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
